@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир динозавров - Flexbox практика</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#">Триасовый период</a></li>
+                <li><a href="#">Юрский период</a></li>
+                <li><a href="#">Меловой период</a></li>
+                <li><a href="#">Исследования</a></li>
+                <li><a href="#">Галерея</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dinosaurs">
+            <h2>Известные динозавры</h2>
+            <div class="dino-cards">
+                <div class="card">
+                    <h3>Тираннозавр Рекс</h3>
+                    <p>Крупный хищник мелового периода.</p>
+                </div>
+                <div class="card">
+                    <h3>Трицератопс</h3>
+                    <p>Травоядный с тремя рогами и костяным воротником.</p>
+                </div>
+                <div class="card">
+                    <h3>Стегозавр</h3>
+                    <p>Узнаваем по пластинам на спине и шипам на хвосте.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-layout">
+            <aside class="sidebar">
+                <h3>Периоды Мезозоя</h3>
+                <ul>
+                    <li>Триасовый (252-201 млн лет)</li>
+                    <li>Юрский (201-145 млн лет)</li>
+                    <li>Меловой (145-66 млн лет)</li>
+                </ul>
+            </aside>
+            <article class="content">
+                <h2>Эра динозавров</h2>
+                <p>Динозавры доминировали на Земле в течение более 160 миллионов лет, с триасового периода до конца мелового периода. Они были чрезвычайно разнообразны: от гигантских зауроподов до небольших пернатых хищников.</p>
+            </article>
+        </section>
+
+        <section class="centered-section">
+            <div class="centered-content">
+                <h2>Центрированный контент</h2>
+                <p>Этот блок идеально отцентрирован с помощью Flexbox!</p>
+            </div>
+        </section>
+
+        <section class="order-experiment">
+            <h2>Эксперимент с порядком</h2>
+            <div class="ordered-cards">
+                <div class="card order-1">Карточка 1 (order: 3)</div>
+                <div class="card order-2">Карточка 2 (order: 1)</div>
+                <div class="card order-3">Карточка 3 (order: 2)</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h4>О проекте</h4>
+                <p>Изучаем динозавров и Flexbox одновременно!</p>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <p>email: dino@flexbox.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Полезные ссылки</h4>
+                <ul>
+                    <li><a href="#">Музей естественной истории</a></li>
+                    <li><a href="#">Палеонтологический институт</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
